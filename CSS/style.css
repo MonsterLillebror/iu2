@@ -180,7 +180,7 @@ a:hover {
             max-width: 1000px;
     }
 
-    .__featured-products .card {
+    .card {
         border: 2px;
 
     }
