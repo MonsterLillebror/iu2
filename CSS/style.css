@@ -98,11 +98,28 @@ a:hover {
                 text-decoration: none;
             }
 
-.showcase {
+.__showcase {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}   
+    height: 846px;
+    }
+    .__showcase .__img-left {
+        margin-left: 120px;
+    }   
+    .__showcase .__img-right {
+        margin-right: 120px ;
+    }   
+    .__showcase .__showcase-body {
+        text-align: center;
+        width: 30%;
+    }
+        .__showcase .__showcase-body h1 {
+            font-size: 65px;
+            font-weight: 800;
+        }
+
+
 
 
 
