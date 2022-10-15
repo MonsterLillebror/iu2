@@ -41,6 +41,29 @@ a:hover {
     background-color: var(--color-theme);    
 }
 
+.__btn-theme {
+    position: relative;
+    text-align: center;
+    background-color: var(--color-theme);
+    color: var(--color-white);
+    padding: 24px 50px;
+}
+
+    .__btn-theme .__btn-theme-left,       
+    .__btn-theme .__btn-theme-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 20px;
+        width: 20px;
+        background-color: #ffffff;
+    }
+
+    .__btn-theme .__btn-theme-left {
+        border-left: 1px solid #ffffff;
+        border-top:  1px solid var(--color-white);
+    }
+
 .__navbar {
     display: flex;
     justify-content: space-between;
@@ -106,17 +129,25 @@ a:hover {
     }
     .__showcase .__img-left {
         margin-left: 120px;
-    }   
+    } 
+
     .__showcase .__img-right {
         margin-right: 120px ;
-    }   
+    } 
+
     .__showcase .__showcase-body {
         text-align: center;
-        width: 30%;
     }
+
         .__showcase .__showcase-body h1 {
             font-size: 65px;
             font-weight: 800;
+        }
+
+        .__showcase .__showcase-body p {
+            margin-top: 50px;
+            margin-bottom: 35px;
+            font-size: 20px;
         }
 
 
