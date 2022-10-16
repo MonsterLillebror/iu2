@@ -216,8 +216,18 @@ a:hover {
                 font-weight: 600;
             }
 
-    .card:hover {
+        .card:hover {
 
+        }
+
+    .card .__btn-theme {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+
+        
     }
 
             
