@@ -3,6 +3,7 @@
 :root {
     --color-white: #ffffff;
     --color-theme: #ff7373;
+    --color-gray: #BBBBBB;
     --color-dark: #222529;
     --color-darkgray: #434343;
     --color-shadow: rgba(0, 0, 0, 0.129);
@@ -262,6 +263,15 @@ a:hover {
     .card:hover .__btn-card-theme {
         display: flex;
     }
+
+.__banners,
+.__flashsales-left,
+.__flashsales-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 60px;
+}
 
             
 
