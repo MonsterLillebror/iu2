@@ -275,16 +275,30 @@ a:hover {
     }
 
 .__banners,
-.__flashsales-left,
-.__flashsales-right {
+.__flashsales {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 30px;
     margin-bottom: 60px;
+    
 }
 
-.__flashsale-box {
+.__flashsales-box {
     background-color: var(--color-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+    .__flashsales-title {
+        font-size: 45px;
+        font-weight: 600;
+        color: var(--color-white);
+        margin-bottom: 40px;
+    }
+.__flashsales {
+    wi
 }
 
 
