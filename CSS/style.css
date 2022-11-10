@@ -34,6 +34,15 @@ a:hover {
     text-decoration: underline;
 }
 
+.container {
+
+}
+
+.__active {
+    color: #ff7373;
+    
+}
+
 .__gradient-gray {
     background: var(--linear-gradient-dark);
     background: linear-gradient(90deg, var(--linear-gradient-dark) 50%, var(--linear-gradient-dark) 50%);
@@ -300,6 +309,27 @@ a:hover {
 .__flashsales {
     width: 75%
 }
+
+.breadcrumb-list {
+    list-style: none;
+    margin: 0 0 40px 0;
+    padding: 0;
+    color: var(--color-theme);
+}
+    .breadcrumb-list li {
+        display: inline-block;
+        font-weight: 500;
+    }
+
+        .breadcrumb-list li + li::before {
+            content: ">00a0";
+            font-weight: 400;
+            color: var(--color-dark);
+        }
+
+        .breadcrumb-list li a {
+            color: var(--color-dark);
+        }
 
 
             
