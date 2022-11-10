@@ -183,16 +183,18 @@ a:hover {
         }
 
 .__featured-products{
-
+    
 }
 
     .__featured-products .container {
         max-width: 1100px;
         border: 2px;
+        
     }
 
     .card {
         border: 2px;
+        
     }
 
         .card img, 
@@ -263,12 +265,12 @@ a:hover {
     bottom: 0;
     display: none;
     align-items: center;
-    justify-content: center ;
+    justify-content: center;
     width: 100%;
     height: 50px;
 }
 
-    .card:hover .__btn-card-theme {
+    .card:hover .btn-card-theme {
         display: flex;
     }
 
@@ -277,9 +279,14 @@ a:hover {
 .__flashsales-right {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 10px;
     margin-bottom: 60px;
 }
+
+.__flashsale-box {
+    background-color: var(--color-gray);
+}
+
 
             
 
