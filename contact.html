@@ -48,7 +48,6 @@
          <li><a href="index.html" class="me-2">Home</a></li>
          <li>Contacts</li>
       </div>
-
    </section>
 
    <section class="map">
@@ -61,21 +60,42 @@
       <div class="container">
          <h2>Come in contact with Us</h2>
          <form>
-             <input id="name" text="text">
-             <input id="email" type="email">
-             <textarea id="message"></textarea>
+            <div>
+               <input id="name" text="text" placeholder="Your name">
+               <div class="errorMessage">Your must enter a name</div>         
+            </div>
+            <div>
+               <input id="email" type="email" placeholder="Your email">
+               <div class="errorMessage">Your must enter an email</div>  
+            </div>
+            <div class="textarea">
+               <textarea id="message" placeholder="Comments"></textarea>
+               <div class="errorMessage">Your must enter a comment</div>                
+            </div>
+
              <div>
-               <button type="submit" class="btn-theme">Post Comments</button>
+               <button type="submit" class="btn-theme">Post Comments
                   <span class="corner-topLeft"></span>
                   <span class="corner-bottomRight"></span>
+               </button>   
              </div>
          </form>
       </div>
-
    </section>
 
+   <footer>
+      <div class="socialmedia">
+         <a href="#"><i class="fa-brands fa-facebook"></i></a>
+         <a href="#"><i class="fa-brands fa-twitter"></i></a>
+         <a href="#"><i class="fa-brands fa-instagram"></i></a>
+         <a href="#"><i class="fa-brands fa-google"></i></a>
+         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <div>© 2022 Fixxo. All Rights Reserved</div>
+   </footer>
 
-   <div style="height: 5000px;"></div>
+
+
 
 </body>
 
