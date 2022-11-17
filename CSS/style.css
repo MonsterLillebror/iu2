@@ -355,7 +355,14 @@ a:hover {
         resize: none;
     }
 
-        .contact
+        .contact {
+            
+        }
+
+        .contact-form form .error {
+            color: var(--color-theme);            
+            border: 1px solid var(--color-light-gray);
+        }
 
         .contact-form form .errorMessage {
             margin-top: 5px;
