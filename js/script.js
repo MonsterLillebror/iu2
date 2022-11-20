@@ -1,9 +1,11 @@
-const checkLength = (element, minLength = 2) => {
+const checkLength = (element, errorMessage = "This field is required", minLength = 2) => {
     console.log(element.target.id)
     if (element.target.value.length < minLength ) {
-        document.getElementById(`${element.target.id}ErrorMessage`).innerText = "You must enter a name"  
+        document.getElementById(element.target.id).classList.add('error')
+        document.getElementById(`${element.target.id}ErrorMessage`).innerText = errorMessage  
     }
     else {
+        document.getElementById(element.target.id).classList.remove('error')
         document.getElementById(`${element.target.id}ErrorMessage`).innerText = ""  
     }
 }
@@ -17,6 +19,7 @@ const validate = (e) => {
         case "email":
             break;
         case "textarea":
+            checkLength(e, 10)
             break;
 
     }
